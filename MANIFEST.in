@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include a4gtc *.css
+recursive-include a4gtc *.csv
+recursive-include a4gtc *.html
+recursive-include a4gtc *.ico
+recursive-include a4gtc *.js
+recursive-include a4gtc *.json
+recursive-include a4gtc *.md
+recursive-include a4gtc *.png
+recursive-include a4gtc *.py
+recursive-include a4gtc *.svg
+recursive-include a4gtc *.txt
+recursive-exclude a4gtc *.pyc

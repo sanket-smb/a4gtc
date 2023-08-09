@@ -1,0 +1,50 @@
+{
+ "creation": "2021-07-15 04:58:02.852496",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "warehouse",
+  "qty",
+  "current_valuation_rate",
+  "valuation_rate"
+ ],
+ "fields": [
+  {
+   "fieldname": "warehouse",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Warehouse",
+   "options": "Warehouse"
+  },
+  {
+   "fieldname": "qty",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Qty"
+  },
+  {
+   "fieldname": "current_valuation_rate",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Current Valuation Rate"
+  },
+  {
+   "fieldname": "valuation_rate",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Valuation Rate"
+  }
+ ],
+ "istable": 1,
+ "modified": "2021-07-15 04:58:02.852496",
+ "modified_by": "Administrator",
+ "module": "A4Gtc",
+ "name": "Adjust Valuation Rate Item",
+ "owner": "Administrator",
+ "permissions": [],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

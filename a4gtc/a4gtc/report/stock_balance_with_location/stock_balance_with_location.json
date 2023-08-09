@@ -1,0 +1,42 @@
+{
+ "add_total_row": 1,
+ "creation": "2021-01-09 10:03:07.171181",
+ "disable_prepared_report": 0,
+ "disabled": 0,
+ "docstatus": 0,
+ "doctype": "Report",
+ "idx": 38,
+ "is_standard": "Yes",
+ "modified": "2023-05-30 13:42:30.486740",
+ "modified_by": "Administrator",
+ "module": "A4Gtc",
+ "name": "Stock Balance with Location",
+ "owner": "Administrator",
+ "prepared_report": 1,
+ "ref_doctype": "Stock Ledger Entry",
+ "report_name": "Stock Balance with Location",
+ "report_type": "Script Report",
+ "roles": [
+  {
+   "role": "Stock User"
+  },
+  {
+   "role": "Stock Manager"
+  },
+  {
+   "role": "System Manager"
+  },
+  {
+   "role": "A4 Users"
+  },
+  {
+   "role": "A4user 1"
+  },
+  {
+   "role": "Report View"
+  },
+  {
+   "role": "A4 View"
+  }
+ ]
+}
